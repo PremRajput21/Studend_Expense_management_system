@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudentSpend | Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="auth-page">
+  <main class="auth-layout">
+    <section class="auth-brand">
+      <div class="brand-mark">S</div>
+      <p class="eyebrow">STUDENTSPEND</p>
+      <h1>Your money.<br><span>Your goals.</span></h1>
+      <p class="muted-light">A simple space to understand your spending, stay on budget, and build better money habits.</p>
+      <div class="auth-mini-stats"><div><strong>Track</strong><small>Every expense</small></div><div><strong>Plan</strong><small>Monthly budgets</small></div><div><strong>Grow</strong><small>Better habits</small></div></div>
+    </section>
+    <section class="auth-card">
+      <div class="mobile-brand"><div class="brand-mark">S</div><strong>StudentSpend</strong></div>
+      <h2>Welcome back</h2><p class="muted">Log in to continue to your dashboard.</p>
+      <form id="loginForm" class="form-stack">
+        <label for="email">Email address</label><input id="email" type="email" placeholder="you@example.com" required>
+        <label for="password">Password</label><input id="password" type="password" placeholder="Enter your password" required minlength="4">
+        <div class="form-between"><label class="check-label"><input type="checkbox" id="remember"> Remember me</label><a href="help.html">Need help?</a></div>
+        <button class="btn btn-primary full" type="submit">Log in <span>→</span></button>
+        <p id="loginMessage" class="form-message" role="status"></p>
+      </form>
+      <p class="auth-switch">New to StudentSpend? <a href="signup.html">Create an account</a></p>
+      <p class="tiny-note">Demo project: account details are stored only in this browser.</p>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
